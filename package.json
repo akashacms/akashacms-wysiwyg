@@ -1,0 +1,14 @@
+{
+  "name": "akashacms-wysiwyg",
+  "version": "0.1.0",
+  "description": "Integrate wysiwyg.css in AkashaRender ",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "mkdir -p assets/vendor/wysiwyg.css && cp node_modules/wysiwyg.css/wysiwyg.css assets/vendor/wysiwyg.css/wysiwyg.css"
+  },
+  "author": "David Herron <david@davidherron.com>",
+  "license": "ISC",
+  "dependencies": {
+    "wysiwyg.css": "0.0.2"
+  }
+}
